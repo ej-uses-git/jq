@@ -1,0 +1,13 @@
+.{
+    .name = .jq,
+    .version = "1.8.1",
+    .dependencies = .{
+        .oniguruma = .{
+            .url = "git+https://github.com/ej-uses-git/oniguruma#a475b5c0adb41744563b697a2e0ff4c0d94effd1",
+            .hash = "oniguruma-6.9.10-mjAcEL2hMADtCaUM5Eoy6Wm2naFYK2LVMg3aH2rh75hj",
+        },
+    },
+    .minimum_zig_version = "0.17.0-dev.355+3a6ddce4c",
+    .paths = .{""},
+    .fingerprint = 0xf9c9d0784bcd6869,
+}

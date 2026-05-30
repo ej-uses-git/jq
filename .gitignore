@@ -58,3 +58,7 @@ cscope.in.out
 cscope.out
 cscope.po.out
 jq.dSYM
+
+.zig-cache/
+zig-out/
+zig-pkg/

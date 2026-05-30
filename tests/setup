@@ -10,7 +10,7 @@ set -eu
 
 JQTESTDIR=$(cd "$(dirname "$0")" && pwd)
 JQBASEDIR=$JQTESTDIR/..
-JQ=${JQ:-$JQBASEDIR/jq}
+JQ=${JQ:-$JQBASEDIR/zig-out/bin/jq}
 
 # Some tests have locale-dependent output; use C locale.  Fixes #3038
 LC_ALL=C
